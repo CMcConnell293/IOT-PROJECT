@@ -99,8 +99,8 @@ def main():
         host="localhost",
         port=1883,
         topic="victron/SS300/data",
-        username="callum",
-        password="root",
+        username="blah",
+        password="blah",
         debug=False
     )
 
@@ -170,3 +170,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
